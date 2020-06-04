@@ -13,6 +13,9 @@ function cargarEventListeners(){
     //Dispara cuando se presiona "agregar carrito"
     cursos.addEventListener('click', comprarCurso);
 
+    //Cuando se elimina un curso del carrito
+    carrito.addEventListener('click', eliminarCurso);
+
 }
 
 
@@ -59,4 +62,14 @@ function imsertarCarrito(curso) {
             </td>
             `; 
             listaCursos.appendChild(row);
+}
+
+//Elimina el curso del carrito del DOM
+function eliminarCurso(e){
+        e.preventDefault();
+
+        let curso;
+        if(e.target.classList.contains('borrar-curso')){
+            e.target.parentElement.parentElement.remove();
+        }
 }

@@ -1,4 +1,4 @@
-# # carritoCompras //En construcción
+# # carritoCompras 
 
 ### [Carrito de Compras](https://megagringa.github.io/carritoCompras/index.html)
 

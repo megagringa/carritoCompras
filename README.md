@@ -11,10 +11,9 @@ Proyecto carritoCompras: trabajado desde Udemy - El proyecto viene con una estru
 - HTML5
 - CSS3
 - JS(Javascript)
-    
+
+- **Udemy**:
+    - Proyecto de practica para mejorar skills.
     
 - **Proyecto**:
     - El usuario podra crear/eliminar/ver sus cursos que quiere adquirir en el carrito de compras.
-    - Los cursos se almacenan en LocalStorage.
-    - El carrito carga la información almacenada del Local Storage por si el usuario visita el sitio nuevamente.
-    - Al quitar un curso del carrito se quita del Local Storage.

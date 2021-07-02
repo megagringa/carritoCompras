@@ -17,3 +17,4 @@ Proyecto carritoCompras: trabajado desde Udemy - El proyecto viene con una estru
     
 - **Proyecto**:
     - El usuario podra crear/eliminar/ver sus cursos que quiere adquirir en el carrito de compras.
+    - Las compras se almacenan en LocalStorage.
